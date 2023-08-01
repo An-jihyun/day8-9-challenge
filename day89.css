@@ -88,6 +88,15 @@ header nav {
   border-bottom: 5px solid black;
 }
 
+.header--nav--findBtn:hover {
+  background-color: #ddd;
+}
+
+.header--nav--findBtn:active {
+  background-color: #aaa;
+  border: 2px solid black;
+}
+
 .header--nav--findBtn svg {
   font-size: 20px;
   margin-right: 5px;
@@ -116,6 +125,15 @@ header nav {
   border-bottom: 5px solid black;
 }
 
+.header--nav--miniBtns__heart:hover {
+  background-color: #ddd;
+}
+
+.header--nav--miniBtns__heart:active {
+  background-color: #aaa;
+  border: 2px solid black;
+}
+
 .header--nav--miniBtns__egg {
   background-color: white;
   width: 50px;
@@ -126,6 +144,15 @@ header nav {
   border: 2px solid black;
   border-radius: 50%;
   border-bottom: 5px solid black;
+}
+
+.header--nav--miniBtns__egg:hover {
+  background-color: #ddd;
+}
+
+.header--nav--miniBtns__egg:active {
+  background-color: #aaa;
+  border: 2px solid black;
 }
 
 main {
