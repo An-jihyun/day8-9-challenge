@@ -90,6 +90,7 @@ header nav {
 
 .header--nav--findBtn:hover {
   background-color: #ddd;
+  border-radius: 20px;
 }
 
 .header--nav--findBtn:active {
@@ -127,11 +128,13 @@ header nav {
 
 .header--nav--miniBtns__heart:hover {
   background-color: #ddd;
+  font-size: 20px;
 }
 
 .header--nav--miniBtns__heart:active {
   background-color: #aaa;
   border: 2px solid black;
+  
 }
 
 .header--nav--miniBtns__egg {
@@ -148,6 +151,7 @@ header nav {
 
 .header--nav--miniBtns__egg:hover {
   background-color: #ddd;
+  font-size: 20px;
 }
 
 .header--nav--miniBtns__egg:active {
