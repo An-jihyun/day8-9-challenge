@@ -20,8 +20,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid black;
+  border: 5px ridge black;
   border-radius: 15px;
+  border-width: 7px;
   box-shadow: -15px 0 20px -3px #ddd, 15px 0 20px -3px #aaa, 0 10px 15px -1.5px #aaa;
 }
 
@@ -57,6 +58,7 @@ body header {
   box-shadow: -15px 0 20px -3px #ddd, 15px 0 20px -3px #aaa, 0 10px 15px -1.5px #aaa;
   border-radius: 10%;
   margin-right: 20px;
+  
 }
 
 .header--bar--main hgroup {
@@ -176,6 +178,7 @@ main ul {
 
 ul li {
   display: flex;
+  line-height: 90%;
 }
 
 li img {
@@ -190,6 +193,11 @@ li img {
   margin-left: 10px;
   margin-top: 3px;
   margin-bottom: 3px;
+  
+}
+
+li h4 {
+  margin-top: 6px;
 }
 
 li h6 {
