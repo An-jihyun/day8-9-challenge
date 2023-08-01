@@ -8,35 +8,112 @@
   </head>
   <body>
     <header>
-      <div>
-        <!--Cross Icone-->
-        <span>PlaY list</span>
+      <div class="header--bar">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+          <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+          />
+        </svg>
+        <h1>Life is...</h1>
       </div>
-      <div>
-        <!--Img-->
+      <div class="header--bar--main">
+        <img src="hpic.png" class="header--bar--img" />
         <hgroup>
-          <h1>큰 제목</h1>
-          <h4>부제목</h4>
+          <h1>삶은...</h1>
+          <h6>계란 먹고 싶다...</h6>
         </hgroup>
-        <!--hgroup 태그는 h1~h6 외의 태그는 포함할 수 없다-->
       </div>
       <nav>
-        <button>Find</button>
-        <div>
-          <button>하트</button>
-          <button>계란</button>
+        <button class="header--nav--findBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+            <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            />
+          </svg>
+          <span>Find</span>
+        </button>
+        <div class="header--nav--miniBtns">
+          <button class="header--nav--miniBtns__heart">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+              />
+            </svg>
+          </button>
+          <button class="header--nav--miniBtns__egg">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M192 496C86 496 0 394 0 288C0 176 64 16 192 16s192 160 192 272c0 106-86 208-192 208zM154.8 134c6.5-6 7-16.1 1-22.6s-16.1-7-22.6-1c-23.9 21.8-41.1 52.7-52.3 84.2C69.7 226.1 64 259.7 64 288c0 8.8 7.2 16 16 16s16-7.2 16-16c0-24.5 5-54.4 15.1-82.8c10.1-28.5 25-54.1 43.7-71.2z"
+              />
+            </svg>
+          </button>
         </div>
       </nav>
     </header>
+
     <main>
-      <article>
-        <!--Img-->
-        <hgroup>
-          <h3>곡명</h3>
-          <h4>가수명</h4>
-        </hgroup>
-      </article>
-      <!--이걸 반복-->
+      <ul>
+        <li>
+          <img src="coin.png" />
+          <div>
+            <h4>코인</h4>
+            <h6>꿀꿀이의 배에서 꺼낸 황금빛 동전.</h6>
+            <h6>전재산이다. 아껴쓰자.</h6>
+          </div>
+        </li>
+        <li>
+          <img src="pig.png" />
+          <div>
+            <h4>꿀꿀이</h4>
+            <h6>배에서 동전을 꺼냈더니 가벼워졌다.</h6>
+            <h6>안그래도 가벼웠는데... 어깨만 무거워진다.</h6>
+          </div>
+        </li>
+        <li>
+          <img src="egg.png" />
+          <div>
+            <h4>날계란</h4>
+            <h6>아쉽게도 삶은 계란이 아니다.</h6>
+            <h6>정말 `모`자람 없는 광택이다.</h6>
+          </div>
+        </li>
+        <li>
+          <img src="fire.png" />
+          <div>
+            <h4>불꽃</h4>
+            <h6>성냥개비로 피워낸 작은 불씨.</h6>
+            <h6>여기까지 읽는 사람이 있을까?</h6>
+          </div>
+        </li>
+        <li>
+          <img src="fri.png" />
+          <div>
+            <h4>계란후라이</h4>
+            <h6>오늘의 TMI 나는 반숙파.</h6>
+            <h6>익어버린 노른자를 보면 야속해..</h6>
+          </div>
+        </li>
+        <li>
+          <img src="bye.png" />
+          <div>
+            <h4>다 쓴 성냥개비</h4>
+            <h6>까맣게... 불태웠다...</h6>
+            <h6>내 얘기임......졸리다.</h6>
+          </div>
+        </li>
+        <li>
+          <img src="water.png" />
+          <div class="true">
+            <h4>미지근한 물</h4>
+            <h6>컵에 물이 5이나 담겼네!</h6>
+            <h6>사실 자세히 보면 반이 넘지만</h6>
+          </div>
+        </li>
+      </ul>
     </main>
   </body>
 </html>
